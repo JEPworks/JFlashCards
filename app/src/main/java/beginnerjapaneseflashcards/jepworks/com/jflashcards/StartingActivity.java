@@ -2,15 +2,10 @@ package beginnerjapaneseflashcards.jepworks.com.jflashcards;
 
 import android.app.Activity;
 import android.app.FragmentTransaction;
-import android.content.Intent;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
 
 
 public class StartingActivity extends Activity {

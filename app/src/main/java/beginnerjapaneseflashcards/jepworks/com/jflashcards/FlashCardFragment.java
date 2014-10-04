@@ -1,9 +1,7 @@
 package beginnerjapaneseflashcards.jepworks.com.jflashcards;
 
-import android.app.Activity;
 import android.app.Fragment;
 import android.content.SharedPreferences;
-import android.media.Image;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.annotation.Nullable;
@@ -12,8 +10,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-
-import java.util.PriorityQueue;
 
 /**
  * Created by James on 10/1/2014.
