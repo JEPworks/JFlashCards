@@ -9,4 +9,8 @@
         android:key="pref_japFirst"
         android:title="Show Japanese First"
         android:defaultValue="false" />
+    <Preference
+        android:key="pref_static_field_key"
+        android:selectable="false"
+        android:summary="Version 0.1"/>
 </PreferenceScreen>
