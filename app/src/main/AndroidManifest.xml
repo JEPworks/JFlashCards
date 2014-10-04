@@ -15,7 +15,8 @@
         </activity>
         <activity
             android:name=".StartingActivity"
-            android:label="JFlashCards" >
+            android:label="JFlashCards"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
