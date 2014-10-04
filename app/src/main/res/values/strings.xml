@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JFlashCards</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="startingCardSelection">
+        <item>Hiragana Characters</item>
+        <item>Quiz 10/6 Vocabulary Words</item>
+    </string-array>
+    <string-array name="hirigana_english">
+        <item>a</item>
+        <item>chi</item>
+        <item>e</item>
+        <item>ha</item>
+        <item>he</item>
+        <item>hi</item>
+        <item>ho</item>
+        <item>hu</item>
+        <item>i</item>
+        <item>ka</item>
+        <item>ke</item>
+        <item>ki</item>
+        <item>ko</item>
+        <item>ku</item>
+        <item>ma</item>
+        <item>me</item>
+        <item>mi</item>
+        <item>mo</item>
+        <item>mu</item>
+        <item>na</item>
+        <item>ne</item>
+        <item>ni</item>
+        <item>nn</item>
+        <item>no</item>
+        <item>nu</item>
+        <item>o</item>
+        <item>ra</item>
+        <item>re</item>
+        <item>ri</item>
+        <item>ro</item>
+        <item>ru</item>
+        <item>sa</item>
+        <item>se</item>
+        <item>shi</item>
+        <item>so</item>
+        <item>su</item>
+        <item>ta</item>
+        <item>te</item>
+        <item>to</item>
+        <item>tsu</item>
+        <item>u</item>
+        <item>wa</item>
+        <item>wo</item>
+        <item>ya</item>
+        <item>yo</item>
+        <item>yu</item>
+    </string-array>
+    <string-array name="Quiz10_6VocabularyEnglish">
+        <item>um...</item>
+        <item>now</item>
+        <item>English(Language)</item>
+        <item>yes</item>
+        <item>student</item>
+        <item>...language</item>
+        <item>high school</item>
+        <item>P.M.</item>
+        <item>A.M.</item>
+        <item>...years old</item>
+        <item>Mr./Ms...</item>
+        <item>o\'clock</item>
+        <item>...people</item>
+        <item>major</item>
+        <item>teacher;Professor</item>
+        <item>That\'s right</item>
+        <item>I see.; Is that so?</item>
+        <item>college; university</item>
+        <item>telephone</item>
+        <item>friend</item>
+        <item>name</item>
+        <item>what</item>
+        <item>Japan</item>
+        <item>...year student</item>
+        <item>yes</item>
+        <item>half</item>
+        <item>number</item>
+        <item>international student</item>
+        <item>I</item>
+        <item>U.S.A.</item>
+        <item>Britain</item>
+        <item>Australia</item>
+        <item>Korea</item>
+        <item>Sweden</item>
+        <item>China</item>
+        <item>science</item>
+        <item>Asian Studies</item>
+        <item>economics</item>
+        <item>international relations</item>
+        <item>computer</item>
+        <item>anthropology</item>
+        <item>politics</item>
+        <item>business</item>
+        <item>literature</item>
+        <item>history</item>
+        <item>job; work; occupation</item>
+        <item>doctor</item>
+        <item>office worker</item>
+        <item>high school student</item>
+        <item>housewife</item>
+        <item>graduate student</item>
+        <item>college student</item>
+        <item>lawyer</item>
+        <item>mother</item>
+        <item>father</item>
+        <item>older sister</item>
+        <item>older brother</item>
+        <item>younger sister</item>
+        <item>younger brother</item>
+    </string-array>
+    <string-array name="Quiz10_6VocabularyRomaji">
+        <item>ano</item>
+        <item>ima</item>
+        <item>eego</item>
+        <item>ee</item>
+        <item>gakusee</item>
+        <item>...go</item>
+        <item>kookoo</item>
+        <item>gogo</item>
+        <item>gozen</item>
+        <item>...sai</item>
+        <item>...san</item>
+        <item>...ji</item>
+        <item>...jin</item>
+        <item>senkoo</item>
+        <item>sensee</item>
+        <item>soo desu</item>
+        <item>so desu ka</item>
+        <item>daigaku</item>
+        <item>denwa</item>
+        <item>tomodachi</item>
+        <item>namae</item>
+        <item>nan/nani</item>
+        <item>Nihon</item>
+        <item>...nensee</item>
+        <item>hai</item>
+        <item>han</item>
+        <item>bangoo</item>
+        <item>ryuugakusee</item>
+        <item>watashi(Male or Female)\n\nboku(Male)</item>
+        <item>Amerika</item>
+        <item>Igirisu</item>
+        <item>Oosutoraria</item>
+        <item>Kankoku</item>
+        <item>Suweeden</item>
+        <item>Chuugoku</item>
+        <item>kagaku</item>
+        <item>ajia kenkyuu</item>
+        <item>keezai</item>
+        <item>kokusaikankee</item>
+        <item>konpyuutaa</item>
+        <item>jinruigaku</item>
+        <item>seeji</item>
+        <item>bijinesu</item>
+        <item>bungaku</item>
+        <item>rekishi</item>
+        <item>shigoto</item>
+        <item>isha</item>
+        <item>kaishain</item>
+        <item>kookoosee</item>
+        <item>shufu</item>
+        <item>daigakuinsee</item>
+        <item>daigakusee</item>
+        <item>bengoshi</item>
+        <item>okaasan</item>
+        <item>otoosan</item>
+        <item>oneesan</item>
+        <item>oniisan</item>
+        <item>imooto</item>
+        <item>otooto</item>
+    </string-array>
+
+    <string name="title_activity_starting">StartingActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:key="pref_shuffle"
+        android:title="Shuffle Flashcard Order"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:key="pref_japFirst"
+        android:title="Show Japanese First"
+        android:defaultValue="false" />
+</PreferenceScreen>
