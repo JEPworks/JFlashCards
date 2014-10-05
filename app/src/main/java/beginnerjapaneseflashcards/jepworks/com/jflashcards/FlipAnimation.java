@@ -21,12 +21,6 @@ public class FlipAnimation extends Animation {
 
     private boolean forward = true;
 
-    /**
-     * Creates a 3D flip animation between two views.
-     *
-     * @param fromView First view in the transition.
-     * @param toView   Second view in the transition.
-     */
     public FlipAnimation(View fromView, View toView) {
         this.fromView = fromView;
         this.toView = toView;
@@ -53,15 +47,9 @@ public class FlipAnimation extends Animation {
 
     @Override
     protected void applyTransformation(float interpolatedTime, Transformation t) {
-        // Angle around the y-axis of the rotation at the given time
-        // calculated both in radians and degrees.
+
         final double radians = Math.PI * interpolatedTime;
         float degrees = (float) (180.0 * radians / Math.PI);
-
-        // Once we reach the midpoint in the animation, we need to hide the
-        // source view and show the destination view. We also need to change
-        // the angle by 180 degrees so that the destination does not come in
-        // flipped around
         if (interpolatedTime >= 0.5f) {
             degrees -= 180.f;
             fromView.setVisibility(View.GONE);

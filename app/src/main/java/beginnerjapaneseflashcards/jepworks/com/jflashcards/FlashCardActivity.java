@@ -23,7 +23,7 @@ public class FlashCardActivity extends Activity {
 
     ViewPager mViewPager;
     public int[] imageArray;
-    private boolean isRomaji;
+    private boolean showRomaji;
     private ArrayList<FlashCard> flashCardArray;
 
     @Override
@@ -40,25 +40,25 @@ public class FlashCardActivity extends Activity {
                 case 0 :
                     flashCardArray = new ArrayList<FlashCard>();
                     for(int count = 0; count < getResources().getStringArray(R.array.hirigana_english).length ;count++) {
-                        flashCardArray.add(new FlashCard(ImageArrays.hirigana[count],-1,getResources().getStringArray(R.array.hirigana_english)[count],""));
+                        flashCardArray.add(new FlashCard(getResources().getStringArray(R.array.base_hirigana)[count],-1,getResources().getStringArray(R.array.hirigana_english)[count],""));
                     }
                     getActionBar().setTitle("Hirigana");
                     if(sharedPref.getBoolean(SHUFFLE_CARDS,true)) {
                         Collections.shuffle(flashCardArray);
                     }
 
-                    isRomaji = false;
+                    showRomaji = false;
                 break;
                 case 1:
                     flashCardArray = new ArrayList<FlashCard>();
                     for(int count = 0; count < getResources().getStringArray(R.array.Quiz10_6VocabularyRomaji).length ;count++) {
-                        flashCardArray.add(new FlashCard(-1,-1,getResources().getStringArray(R.array.Quiz10_6VocabularyEnglish)[count],getResources().getStringArray(R.array.Quiz10_6VocabularyRomaji)[count]));
+                        flashCardArray.add(new FlashCard(getResources().getStringArray(R.array.Quiz10_6VocabularyHiragana)[count],-1,getResources().getStringArray(R.array.Quiz10_6VocabularyEnglish)[count],getResources().getStringArray(R.array.Quiz10_6VocabularyRomaji)[count]));
                     }
                     getActionBar().setTitle("10/6 Vocabulary Quiz");
                     if(sharedPref.getBoolean(SHUFFLE_CARDS,true)) {
                         Collections.shuffle(flashCardArray);
                     }
-                    isRomaji = true;
+                    showRomaji = true;
 
                 break;
             }
@@ -79,7 +79,7 @@ public class FlashCardActivity extends Activity {
         return flashCardArray.get(position);
     }
 
-    public boolean isRomaji() {return isRomaji;};
+    public boolean isShowRomaji() {return showRomaji;};
 
     /**
      * A {@link FragmentPagerAdapter} that returns a fragment corresponding to

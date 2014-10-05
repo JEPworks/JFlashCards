@@ -1,5 +1,6 @@
 package beginnerjapaneseflashcards.jepworks.com.jflashcards;
 
+import android.app.ActionBar;
 import android.app.Fragment;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -9,6 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 /**
@@ -38,19 +40,15 @@ public class FlashCardFragment extends Fragment {
         SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(getActivity());
         final View rootView = (View) inflater.inflate(R.layout.fragment_flashcard,null);
         TextView englishText = (TextView) rootView.findViewById(R.id.englishText);
-        ImageView japaneseCharacter = (ImageView) rootView.findViewById(R.id.japaneseCharacter);
+        TextView japaneseCharacter = (TextView) rootView.findViewById(R.id.japaneseCharacter);
         TextView japaneseRomaji = (TextView) rootView.findViewById(R.id.romajiText);
+
         englishText.setText(getParentActivity().getFlashCard(position).getEnglish());
-        if(getParentActivity().isRomaji()) {
-            japaneseCharacter.setVisibility(View.GONE);
-            japaneseRomaji.setVisibility(View.VISIBLE);
-            englishText.setVisibility(View.VISIBLE);
-            japaneseRomaji.setText(getParentActivity().getFlashCard(position).getRomaji());
-        } else {
+        japaneseRomaji.setText(getParentActivity().getFlashCard(position).getRomaji());
+        japaneseCharacter.setText(getParentActivity().getFlashCard(position).getHirigana());
+
+        if(!getParentActivity().isShowRomaji()) {
             japaneseRomaji.setVisibility(View.GONE);
-            englishText.setVisibility(View.VISIBLE);
-            japaneseCharacter.setVisibility(View.VISIBLE);
-            japaneseCharacter.setImageResource(getParentActivity().getFlashCard(position).getHirigana());
         }
 
         if(sharedPref.getBoolean(FlashCardActivity.JAPANESE_FIRST,false)) {

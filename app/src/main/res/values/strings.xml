@@ -20,7 +20,7 @@
         <item>he</item>
         <item>hi</item>
         <item>ho</item>
-        <item>hu</item>
+        <item>fu</item>
         <item>i</item>
         <item>ka</item>
         <item>ke</item>
@@ -60,6 +60,57 @@
         <item>yo</item>
         <item>yu</item>
     </string-array>
+
+    <string-array name="base_hirigana">
+        <item>あ</item>
+        <item>ち</item>
+        <item>え</item>
+        <item>は</item>
+        <item>へ</item>
+        <item>ひ</item>
+        <item>ほ</item>
+        <item>ふ</item>
+        <item>﻿い</item>
+        <item>か</item>
+        <item>け</item>
+        <item>き</item>
+        <item>こ</item>
+        <item>く</item>
+        <item>ま</item>
+        <item>め</item>
+        <item>み</item>
+        <item>も</item>
+        <item>む</item>
+        <item>な</item>
+        <item>ね</item>
+        <item>に</item>
+        <item>ん</item>
+        <item>の</item>
+        <item>ぬ</item>
+        <item>お</item>
+        <item>ら</item>
+        <item>れ</item>
+        <item>り</item>
+        <item>ろ</item>
+        <item>る</item>
+        <item>さ</item>
+        <item>せ</item>
+        <item>し</item>
+        <item>そ</item>
+        <item>す</item>
+        <item>た</item>
+        <item>て</item>
+        <item>と</item>
+        <item>つ</item>
+        <item>う</item>
+        <item>わ</item>
+        <item>を</item>
+        <item>や</item>
+        <item>よ</item>
+        <item>ゆ</item>
+
+    </string-array>
+
     <string-array name="Quiz10_6VocabularyEnglish">
         <item>um...</item>
         <item>now</item>
@@ -150,7 +201,7 @@
         <item>han</item>
         <item>bangoo</item>
         <item>ryuugakusee</item>
-        <item>watashi(Male or Female)\n\nboku(Male)</item>
+        <item>watashi</item>
         <item>Amerika</item>
         <item>Igirisu</item>
         <item>Oosutoraria</item>
@@ -181,6 +232,68 @@
         <item>oniisan</item>
         <item>imooto</item>
         <item>otooto</item>
+    </string-array>
+
+    <string-array name="Quiz10_6VocabularyHiragana">
+        <item>﻿あの</item>
+        <item>いま</item>
+        <item>ええご</item>
+        <item>ええ</item>
+        <item>がくせい</item>
+        <item>...ご</item>
+        <item>こうこう</item>
+        <item>ごご</item>
+        <item>ごぜん</item>
+        <item>...さい</item>
+        <item>...さん</item>
+        <item>...じ</item>
+        <item>...じん</item>
+        <item>せんこう</item>
+        <item>せんせい</item>
+        <item>そう です</item>
+        <item>そう です か</item>
+        <item>だいがく</item>
+        <item>でんわ</item>
+        <item>ともだち</item>
+        <item>なまえ</item>
+        <item>なん/なに</item>
+        <item>にほん</item>
+        <item>...ねんせい</item>
+        <item>はい</item>
+        <item>はん</item>
+        <item>ばんごう</item>
+        <item>りゅうがくせい</item>
+        <item>わたし</item>
+        <item>あめりか</item>
+        <item>いぎりす</item>
+        <item>おーすとらりあ</item>
+        <item>かんこく</item>
+        <item>すうェーでん</item>
+        <item>ちゅうごく</item>
+        <item>かがく</item>
+        <item>あじあ けんきゅう</item>
+        <item>けいざい</item>
+        <item>こくさいかんけい</item>
+        <item>こんぴゅうたあ</item>
+        <item>じんるいがく</item>
+        <item>せいじ</item>
+        <item>びじねす</item>
+        <item>ぶんがく</item>
+        <item>れきし</item>
+        <item>しごと</item>
+        <item>いしゃ</item>
+        <item>かいしゃいん</item>
+        <item>こうこうせい</item>
+        <item>しゅふ</item>
+        <item>だいがくいんせい</item>
+        <item>だいがくせい</item>
+        <item>べんごし</item>
+        <item>おかあさん</item>
+        <item>おとうさん</item>
+        <item>おねえさん</item>
+        <item>おにいさん</item>
+        <item>いもうと</item>
+        <item>おとうと</item>
     </string-array>
 
     <string name="title_activity_starting">StartingActivity</string>

@@ -5,16 +5,16 @@ package beginnerjapaneseflashcards.jepworks.com.jflashcards;
  */
 public class FlashCard {
 
-    private int hirigana;
     private int katakana;
     private String english;
     private String romaji;
+    private String hirigana;
 
-    public int getHirigana() {
+    public String getHirigana() {
         return hirigana;
     }
 
-    public void setHirigana(int hirigana) {
+    public void setHirigana(String hirigana) {
         this.hirigana = hirigana;
     }
 
@@ -42,7 +42,7 @@ public class FlashCard {
         this.romaji = romaji;
     }
 
-    public FlashCard(int hirigana, int katakana, String english, String romaji) {
+    public FlashCard(String hirigana, int katakana, String english, String romaji) {
         this.hirigana = hirigana;
         this.katakana = katakana;
         this.english = english;
