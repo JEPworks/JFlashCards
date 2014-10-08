@@ -42,13 +42,19 @@ public class FlashCardFragment extends Fragment {
         TextView englishText = (TextView) rootView.findViewById(R.id.englishText);
         TextView japaneseCharacter = (TextView) rootView.findViewById(R.id.japaneseCharacter);
         TextView japaneseRomaji = (TextView) rootView.findViewById(R.id.romajiText);
+        TextView romajiEnglishSide = (TextView) rootView.findViewById(R.id.romajiTextEnglish);
 
         englishText.setText(getParentActivity().getFlashCard(position).getEnglish());
         japaneseRomaji.setText(getParentActivity().getFlashCard(position).getRomaji());
         japaneseCharacter.setText(getParentActivity().getFlashCard(position).getHirigana());
+        romajiEnglishSide.setText(getParentActivity().getFlashCard(position).getRomaji());
 
         if(!getParentActivity().isShowRomaji()) {
             japaneseRomaji.setVisibility(View.GONE);
+        }
+
+        if(!getParentActivity().isRomajiOnEnglishSide()) {
+            romajiEnglishSide.setVisibility(View.GONE);
         }
 
         if(sharedPref.getBoolean(FlashCardActivity.JAPANESE_FIRST,false)) {

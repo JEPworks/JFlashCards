@@ -24,6 +24,7 @@ public class FlashCardActivity extends Activity {
     ViewPager mViewPager;
     public int[] imageArray;
     private boolean showRomaji;
+    private boolean romajiOnEnglishSide;
     private ArrayList<FlashCard> flashCardArray;
 
     @Override
@@ -46,7 +47,7 @@ public class FlashCardActivity extends Activity {
                     if(sharedPref.getBoolean(SHUFFLE_CARDS,true)) {
                         Collections.shuffle(flashCardArray);
                     }
-
+                    romajiOnEnglishSide = false;
                     showRomaji = false;
                 break;
                 case 1:
@@ -58,8 +59,20 @@ public class FlashCardActivity extends Activity {
                     if(sharedPref.getBoolean(SHUFFLE_CARDS,true)) {
                         Collections.shuffle(flashCardArray);
                     }
+                    romajiOnEnglishSide = false;
                     showRomaji = true;
 
+                case 2:
+                    flashCardArray = new ArrayList<FlashCard>();
+                    for(int count = 0; count < getResources().getStringArray(R.array.HiriganaPractice1English).length ;count++) {
+                        flashCardArray.add(new FlashCard(getResources().getStringArray(R.array.HiriganaPractice1Hirigana)[count],-1,getResources().getStringArray(R.array.HiriganaPractice1English)[count],getResources().getStringArray(R.array.HiriganaPractice1Romaji)[count]));
+                    }
+                    getActionBar().setTitle("Hirigana Practice 1");
+                    if(sharedPref.getBoolean(SHUFFLE_CARDS,true)) {
+                        Collections.shuffle(flashCardArray);
+                    }
+                    romajiOnEnglishSide = true;
+                    showRomaji = false;
                 break;
             }
         }
@@ -80,6 +93,7 @@ public class FlashCardActivity extends Activity {
     }
 
     public boolean isShowRomaji() {return showRomaji;};
+    public boolean isRomajiOnEnglishSide() {return romajiOnEnglishSide;};
 
     /**
      * A {@link FragmentPagerAdapter} that returns a fragment corresponding to

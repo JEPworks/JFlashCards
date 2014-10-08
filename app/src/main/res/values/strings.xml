@@ -11,6 +11,7 @@
     <string-array name="startingCardSelection">
         <item>Hiragana Characters</item>
         <item>Quiz 10/6 Vocabulary Words</item>
+        <item>Hirigana Practice 1 (a-to)</item>
     </string-array>
     <string-array name="hirigana_english">
         <item>a</item>
@@ -294,6 +295,85 @@
         <item>おにいさん</item>
         <item>いもうと</item>
         <item>おとうと</item>
+    </string-array>
+
+    <string-array name="HiriganaPractice1Romaji">
+        <item>﻿koi</item>
+        <item>oka</item>
+        <item>ike</item>
+        <item>ue</item>
+        <item>aki</item>
+        <item>kaku</item>
+        <item>au</item>
+        <item>ie</item>
+        <item>ai</item>
+        <item>kao</item>
+        <item>koe</item>
+        <item>kiku</item>
+        <item>asa</item>
+        <item>katate</item>
+        <item>kisetsu</item>
+        <item>tochi</item>
+        <item>sushi</item>
+        <item>soto</item>
+        <item>tasuke</item>
+        <item>chikatetsu</item>
+        <item>sekai</item>
+        <item>kasa</item>
+        <item>toshi</item>
+        <item>asoko</item>
+    </string-array>
+    <string-array name="HiriganaPractice1English">
+        <item>﻿(carp)</item>
+        <item>(hill)</item>
+        <item>(pond)</item>
+        <item>(above)</item>
+        <item>(autumn)</item>
+        <item>(write)</item>
+        <item>(meet)</item>
+        <item>(house)</item>
+        <item>(love)</item>
+        <item>(face)</item>
+        <item>(voice)</item>
+        <item>(listen)</item>
+        <item>(morning)</item>
+        <item>(one hand)</item>
+        <item>(season)</item>
+        <item>(land)</item>
+        <item>(name of Japanese cuisine)</item>
+        <item>(outside)</item>
+        <item>(help)</item>
+        <item>(subway)</item>
+        <item>(world)</item>
+        <item>(umbrella)</item>
+        <item>(age)</item>
+        <item>(over there)</item>
+    </string-array>
+    <string-array name="HiriganaPractice1Hirigana">
+        <item>﻿こい</item>
+        <item>おか</item>
+        <item>いけ</item>
+        <item>うえ</item>
+        <item>あき</item>
+        <item>かく</item>
+        <item>あう</item>
+        <item>いえ</item>
+        <item>あい</item>
+        <item>かお</item>
+        <item>こえ</item>
+        <item>きく</item>
+        <item>あさ</item>
+        <item>かたて</item>
+        <item>きせつ</item>
+        <item>とち</item>
+        <item>すし</item>
+        <item>そと</item>
+        <item>たすけ</item>
+        <item>ちかてつ</item>
+        <item>せかい</item>
+        <item>かさ</item>
+        <item>とし</item>
+        <item>あそこ</item>
     </string-array>
 
     <string name="title_activity_starting">StartingActivity</string>

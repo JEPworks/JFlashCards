@@ -14,15 +14,28 @@
         android:layout_height="match_parent">
 
         <TextView
-            android:id="@+id/englishText"
+        android:id="@+id/englishText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:layout_margin="12dp"
+        android:gravity="center"
+        android:textSize="38sp"
+        android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/romajiTextEnglish"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
             android:textAlignment="center"
             android:layout_margin="12dp"
             android:gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_above="@+id/englishText"
+            android:text=""
             android:textSize="38sp"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center" />
 
 
 
