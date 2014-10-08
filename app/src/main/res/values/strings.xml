@@ -12,6 +12,7 @@
         <item>Hiragana Characters</item>
         <item>Quiz 10/6 Vocabulary Words</item>
         <item>Hirigana Practice 1 (a-to)</item>
+        <item>Hirigana Practice 2 (na-yo)</item>
     </string-array>
     <string-array name="hirigana_english">
         <item>a</item>
@@ -374,6 +375,86 @@
         <item>かさ</item>
         <item>とし</item>
         <item>あそこ</item>
+    </string-array>
+
+    <string-array name="HiriganaPractice2Romaji">
+        <item>﻿hifu</item>
+        <item>nanika</item>
+        <item>honu</item>
+        <item>shine</item>
+        <item>konoha</item>
+        <item>heta</item>
+        <item>fune</item>
+        <item>hoshi</item>
+        <item>hana</item>
+        <item>heso</item>
+        <item>nuno</item>
+        <item>hiniku</item>
+        <item>machi</item>
+        <item>mise</item>
+        <item>mune</item>
+        <item>yume</item>
+        <item>moya</item>
+        <item>yomu</item>
+        <item>mochi</item>
+        <item>matsu</item>
+        <item>kami</item>
+        <item>oyu</item>
+        <item>musume</item>
+        <item>yoyaku</item>
+    </string-array>
+
+    <string-array name="HiriganaPractice2Hirigana">
+        <item>﻿ひふ</item>
+        <item>なにか</item>
+        <item>ほぬ</item>
+        <item>しね</item>
+        <item>このは</item>
+        <item>へた</item>
+        <item>ふね</item>
+        <item>ほし</item>
+        <item>はな</item>
+        <item>へそ</item>
+        <item>ぬの</item>
+        <item>ひにく</item>
+        <item>まち</item>
+        <item>みせ</item>
+        <item>むね</item>
+        <item>ゆめ</item>
+        <item>もや</item>
+        <item>よむ</item>
+        <item>もち</item>
+        <item>まつ</item>
+        <item>かみ</item>
+        <item>おゆ</item>
+        <item>むすめ</item>
+        <item>よやく</item>
+    </string-array>
+    <string-array name="HiriganaPractice2English">
+        <item>﻿(skin)</item>
+        <item>(something)</item>
+        <item>(bone)</item>
+        <item>(die)</item>
+        <item>(leaf)</item>
+        <item>(clumsy)</item>
+        <item>(boat)</item>
+        <item>(star)</item>
+        <item>(flower)</item>
+        <item>(navel)</item>
+        <item>(cloth)</item>
+        <item>(sarcasm)</item>
+        <item>(town)</item>
+        <item>(store)</item>
+        <item>(chest)</item>
+        <item>(dream)</item>
+        <item>(fog)</item>
+        <item>(read)</item>
+        <item>(rice cake)</item>
+        <item>(wait)</item>
+        <item>(paper;hair)</item>
+        <item>(hot water)</item>
+        <item>(daughter)</item>
+        <item>(reservation)</item>
     </string-array>
 
     <string name="title_activity_starting">StartingActivity</string>

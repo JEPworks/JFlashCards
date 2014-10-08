@@ -61,13 +61,25 @@ public class FlashCardActivity extends Activity {
                     }
                     romajiOnEnglishSide = false;
                     showRomaji = true;
-
+                break;
                 case 2:
                     flashCardArray = new ArrayList<FlashCard>();
                     for(int count = 0; count < getResources().getStringArray(R.array.HiriganaPractice1English).length ;count++) {
                         flashCardArray.add(new FlashCard(getResources().getStringArray(R.array.HiriganaPractice1Hirigana)[count],-1,getResources().getStringArray(R.array.HiriganaPractice1English)[count],getResources().getStringArray(R.array.HiriganaPractice1Romaji)[count]));
                     }
                     getActionBar().setTitle("Hirigana Practice 1");
+                    if(sharedPref.getBoolean(SHUFFLE_CARDS,true)) {
+                        Collections.shuffle(flashCardArray);
+                    }
+                    romajiOnEnglishSide = true;
+                    showRomaji = false;
+                break;
+                case 3:
+                    flashCardArray = new ArrayList<FlashCard>();
+                    for(int count = 0; count < getResources().getStringArray(R.array.HiriganaPractice2English).length ;count++) {
+                        flashCardArray.add(new FlashCard(getResources().getStringArray(R.array.HiriganaPractice2Hirigana)[count],-1,getResources().getStringArray(R.array.HiriganaPractice2English)[count],getResources().getStringArray(R.array.HiriganaPractice2Romaji)[count]));
+                    }
+                    getActionBar().setTitle("Hirigana Practice 2");
                     if(sharedPref.getBoolean(SHUFFLE_CARDS,true)) {
                         Collections.shuffle(flashCardArray);
                     }
